@@ -16,9 +16,8 @@ submission: https://github.com/eudard/etools-umbrel-appstore
 repo: https://github.com/bizzycola/qrcode-generator
 support: https://github.com/eudard/etools-umbrel-appstore/issues
 gallery:
-  - https://github.com/eudard/etools-umbrel-appstore/etools-qrcode1.png
-  - https://github.com/eudard/etools-umbrel-appstore/etools-qrcode1.png
-  - https://github.com/eudard/etools-umbrel-appstore/etools-qrcode1.png
+  - https://github.com/eudard/etools-umbrel-appstore/etools-qrcode/etools-qrcode1.png
+
 releaseNotes: >-
   Initial release
 dependencies: []
