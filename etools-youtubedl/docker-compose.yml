@@ -1,5 +1,10 @@
 version: "2"
 services:
+
+    app_proxy:
+        environment:
+            APP_HOST: youtubedl-material_1
+            APP_PORT: 8998
     ytdl_material:
         environment:
             ytdl_mongodb_connection_string: 'mongodb://ytdl-mongo-db:27017'
@@ -9,11 +14,11 @@ services:
         depends_on:
             - ytdl-mongo-db
         volumes:
-            - ./appdata:/app/appdata
-            - ./audio:/app/audio
-            - ./video:/app/video
-            - ./subscriptions:/app/subscriptions
-            - ./users:/app/users
+            - ${APP_DATA_DIR}/appdata:/app/appdata
+            - ${APP_DATA_DIR}/audio:/app/audio
+            - ${APP_DATA_DIR}/video:/app/video
+            - ${APP_DATA_DIR}/subscriptions:/app/subscriptions
+            - ${APP_DATA_DIR}/users:/app/users
         ports:
             - "8998:17442"
         image: tzahi12345/youtubedl-material:latest
@@ -25,4 +30,4 @@ services:
         container_name: mongo-db
         restart: always
         volumes:
-            - ./db/:/data/db
+            - ${APP_DATA_DIR}/db/:/data/db
