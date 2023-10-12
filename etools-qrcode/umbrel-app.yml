@@ -1,8 +1,8 @@
 manifestVersion: 1
 id: etools-qrcode
-name: QR Code Generator UI
-tagline: qrcode
-icon: https://svgur.com/i/yQv.svg
+name: QR Code UI
+tagline: Private QR Code generator
+icon: https://raw.githubusercontent.com/eudard/etools-umbrel-appstore/main/etools-qrcode/qrcode.svg
 category: Development
 version: "1.0.0"
 port: 8895
@@ -16,7 +16,7 @@ submission: https://github.com/eudard/etools-umbrel-appstore
 repo: https://github.com/bizzycola/qrcode-generator
 support: https://github.com/eudard/etools-umbrel-appstore/issues
 gallery:
-  - https://i.ibb.co/dfCqmTY/etools-qrcode1.png
+  - https://raw.githubusercontent.com/eudard/etools-umbrel-appstore/main/etools-qrcode/etools-qrcode1.png
 
 releaseNotes: >-
   Initial release
