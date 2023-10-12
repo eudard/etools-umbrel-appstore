@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: youtubedl-material
+id: etools-youtubedl
 name: YouTube downloader
 tagline: Self-hosted YouTube downloader built on Material Design
 icon: https://raw.githubusercontent.com/Tzahi12345/YoutubeDL-Material/master/src/assets/images/logo_64px.png
