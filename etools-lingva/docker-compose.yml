@@ -11,7 +11,7 @@ services:
     ports:
       - 6455:3000
     environment:
-      site_domain: lingva.yourname.synology.me
+      #site_domain: lingva.yourname.synology.me
       force_default_theme: dark
       default_source_lang: auto
       default_target_lang: en
