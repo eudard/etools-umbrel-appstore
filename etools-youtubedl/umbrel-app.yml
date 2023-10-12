@@ -5,7 +5,7 @@ tagline: Self-hosted YouTube downloader built on Material Design
 icon: https://raw.githubusercontent.com/Tzahi12345/YoutubeDL-Material/master/src/assets/images/logo_64px.png
 category: Networking
 version: "v4.3"
-port: 17442
+port: 8998
 description: >-
   YoutubeDL-Material is a Material Design frontend for youtube-dl. 
   It's coded using Angular 15 for the frontend, and Node.js on the backend.
